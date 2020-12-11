@@ -1,0 +1,6 @@
+compile:	javac DNS_resolver.java
+	
+run:	java DNS_resolver www.goole.com ( any domain name of this format)
+
+clean:
+	rm -r DNS_resolver.class
