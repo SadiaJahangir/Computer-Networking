@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Music CD Store</title>
+<style>
+  body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("music.jpg");
+
+  /* Full height */
+  height: 50%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label {
+  color: blue ;
+
+}
+h1 {
+  color:hsl(0, 20%, 50%);
+  //padding-top: 50px;
+}
+ input[type=submit] {
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: red;
+  color: white;
+}
+
+.top_seller {
+  color:  #006699 ;
+  //padding-top: 200px;
+  
+}
+.FORM {
+  //padding-top: 10px;
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.p{
+text-align:center;
+color:Black;
+text-size:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="bg"> </div>
+<h1> <b>OLD CD CORNER</b></h1>
+
+  <div class="row">
+  <div class="column">
+    <img src="1.png" alt="Snow" style="width:60%">
+	<br><b>item no: 1<br>Prize: $1</b><br>
+  </div>
+  <div class="column">
+    <img src="2.png" alt="Forest" style="width:60%">
+	<br><b>item no: 2<br>Prize: $2</b><br>
+  </div>
+  <div class="column">
+    <img src="3.png" alt="Mountains" style="width:60%">
+	<br><b>item no: 3<br>Prize: $3</b><br>
+	</div>
+	 <div class="column">
+	<img src="4.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 4<br>Prize: $4</b><br>
+	</div>
+	</div>
+	
+	<div class="row">
+	 <div class="column">
+	<img src="5.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 5<br>Prize: $5</b><br>
+	</div>
+	 <div class="column">
+	<img src="6.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 6<br>Prize: $6</b><br>
+	</div>
+	 <div class="column">
+	<img src="7.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 7<br>Prize: $7</b><br>
+	</div>
+	<div class="column">
+	<img src="8.jpg" alt="Mountains" style="width:60%" >
+	<br><b>item no: 8<br>Prize: $8</b><br>
+	</div>
+  </div>
+  
+  <div class="row">
+	 <div class="column">
+	<img src="9.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 9<br>Prize: $9</b><br>
+	</div>
+	 <div class="column">
+	<img src="10.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 10<br>Prize: $10</b><br>
+	</div>
+	 <div class="column">
+	<img src="11.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 11<br>Prize: $1</b><br>
+	</div>
+	<div class="column">
+	<img src="12.jpg" alt="Mountains" style="width:60%" >
+	<br><b>item no: 12<br>Prize: $2</b><br>
+	</div>
+  </div>
+  
+   <div class="row">
+	 <div class="column">
+	<img src="13.png" alt="Mountains" style="width:60%">
+	<br><b>item no: 13<br>Prize: $3</b><br>
+	</div>
+	 <div class="column">
+	<img src="14.jpg" alt="Mountains" style="width:60%">
+	<br><b>item no: 10<br>Prize: $4</b><br>
+	</div>
+	 <div class="column">
+	<img src="15.png" alt="Mountains" style="width:60%">
+	<br><b>item no: 15<br>Prize: $5</b><br>
+	</div>
+	<div class="column">
+	<img src="16.png" alt="Mountains" style="width:60%" >
+	<br><b>item no: 16<br>Prize: $6</b><br>
+	</div>
+  </div>
+
+<h1 >Please fill up the following form to buy CDs</h1>
+<form class="FORM" method="post" >
+
+  <label>  First name: </label> <br>
+  <input type="text" name="firstname" required >
+  <br>
+  <label>Family name:<br>
+  <input type="text" name="familyname" required > </label> <br>
+  <label>Postcode: <br>
+  <input type="text" name="postcode" placeholder="Enter 4 digit"  required>  </label> <br>
+  <label>Credit Card:  <br>
+   <input type="text" name="creditcard" placeholder="Enter 8 digit" required> </label> <br>
+  <label> Item Number: </label> <br>
+  <input type="text" name="ItemNumber" required> </label> <br>
+  <label> Quantity: <br>
+   <input type="text" name="quantity"required> </label> <br>
+   <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
